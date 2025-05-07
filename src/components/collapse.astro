@@ -1,0 +1,19 @@
+---
+import { LuChevronDown } from "react-icons/lu";
+
+type Props = {
+  title: string;
+};
+
+const { title } = Astro.props;
+---
+
+<div x-data="{ isOpen: false }" x-bind:data-open="isOpen" class="group not-prose contents">
+  <button x-on:click="isOpen = !isOpen" class="flex items-center gap-2 text-sm/loose font-semibold">
+    {title}
+    <LuChevronDown className="size-4 opacity-30 group-data-[open=true]:rotate-180" />
+  </button>
+  <div x-show="isOpen" class="prose prose-sm mt-1 mb-6 max-w-none" x-cloak>
+    <slot />
+  </div>
+</div>

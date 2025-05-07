@@ -1,0 +1,3 @@
+Salve, Rainha, Mãe de misericórdia, vida, doçura e esperança nossa, salve!
+A vós bradamos, os degredados filhos de Eva; a vós suspiramos, gemendo e chorando neste vale de lágrimas.
+Eia, pois advogada nossa, esses vossos olhos misericordiosos a nós volvei; e depois deste desterro nos mostrai Jesus, bendito fruto do vosso ventre, ó clemente, ó piedosa, ó doce sempre Virgem Maria

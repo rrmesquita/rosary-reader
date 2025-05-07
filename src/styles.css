@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@plugin "daisyui" {
+  themes: "light";
+}
+
+@theme inline {
+  --color-celestial-blue: #6ca6cd;
+  --color-gold: #d4af37;
+  --color-reza-purple: #5e4b8b;
+  --color-reza-green: #4caf50;
+  --color-reza-crimson: B22222;
+  --color-reza-gold: #daa520;
+
+  --root-bg: #fffef2;
+  --color-base-content: var(--color-neutral-950);
+}
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: --spacing(8);
+}
+
+.prose {
+  --tw-prose-body: inherit;
+}
+
+[x-cloak] {
+  display: none !important;
+}
