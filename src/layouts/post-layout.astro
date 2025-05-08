@@ -1,9 +1,17 @@
 ---
 import { LuArrowLeft } from "react-icons/lu";
 import Layout from "./Layout.astro";
+
+type Props = {
+  frontmatter: {
+    title: string;
+  };
+};
+
+const { frontmatter } = Astro.props;
 ---
 
-<Layout>
+<Layout title={frontmatter.title}>
   <div class="container">
     <div class="py-4">
       <a href="/" class="inline-flex items-center gap-2 text-sm hover:underline">
