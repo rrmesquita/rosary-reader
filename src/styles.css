@@ -5,13 +5,6 @@
 }
 
 @theme inline {
-  --color-celestial-blue: #6ca6cd;
-  --color-gold: #d4af37;
-  --color-reza-purple: #5e4b8b;
-  --color-reza-green: #4caf50;
-  --color-reza-crimson: B22222;
-  --color-reza-gold: #daa520;
-
   --root-bg: #fffef2;
   --color-base-content: var(--color-neutral-950);
 }
