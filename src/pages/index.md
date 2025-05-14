@@ -2,9 +2,9 @@
 layout: "../layouts/index-layout.astro"
 ---
 
-<!-- ## Seleta de Orações
+## Seleta de Orações
 
-- [Santo Rosario](/santo-rosario)
+<!-- - [Santo Rosario](/santo-rosario)
 - [Ladainha](/ladainha)
 - [Mistérios Gozosos (segundas-feiras e sábados)](/misterios-gozosos)
 - [Mistérios Luminosos (quintas-feiras)](/misterios-luminosos)
