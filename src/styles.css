@@ -4,9 +4,16 @@
   themes: "light";
 }
 
-@theme inline {
+:root {
   --root-bg: #fffef2;
   --color-base-content: var(--color-neutral-950);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --root-bg: var(--color-stone-800);
+    --color-base-content: var(--color-stone-300);
+  }
 }
 
 @utility container {

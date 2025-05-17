@@ -12,7 +12,7 @@ export default defineConfig({
     fonts: [
       {
         provider: fontProviders.bunny(),
-        name: "Lora",
+        name: "Merriweather",
         cssVariable: "--font-serif",
       },
     ],
